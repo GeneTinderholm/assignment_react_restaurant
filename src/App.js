@@ -3,6 +3,7 @@ import NavBar from "./components/navbar";
 import Routers from "./components/router";
 import Header from "./components/header";
 import "./App.css";
+import Map from "./components/map";
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
         <NavBar />
         <Header />
         <Routers />
+        <Map />
       </div>
     );
   }
