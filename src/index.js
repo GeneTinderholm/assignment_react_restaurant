@@ -1,9 +1,14 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import barNav from './components/navbar';
-import App from './App';
-import registerServiceWorker from './registerServiceWorker';
+//bootstrap
+import "bootstrap/dist/css/bootstrap.css";
 
-ReactDOM.render(<App />, document.getElementById('root'));
+//default
+import React from "react";
+import ReactDOM from "react-dom";
+
+//default
+import "./index.css";
+import App from "./App";
+import registerServiceWorker from "./registerServiceWorker";
+
+ReactDOM.render(<App />, document.getElementById("root"));
 registerServiceWorker();
