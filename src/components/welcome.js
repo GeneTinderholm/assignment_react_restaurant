@@ -1,9 +1,11 @@
-import React from 'react';
-
+import React from "react";
 
 const Welcome = props => {
   return (
-    <h1>Hello From Welcome</h1>
+    <div>
+      <h3>About React Restaurant</h3>
+      <p>The swankiest dyanmically generated spot around</p>
+    </div>
   );
 };
 
