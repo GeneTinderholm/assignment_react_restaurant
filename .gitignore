@@ -3,6 +3,7 @@
 # dependencies
 /node_modules
 *.swp
+/src/components/apikey.js
 
 # testing
 /coverage
