@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import { Navbar, Nav, NavItem, NavDropdown, MenuItem } from 'react-bootstrap';
+import React from 'react';
+import { Navbar, Nav, NavItem} from 'react-bootstrap';
 const NavBar = props => {
   return (
     <Navbar>
